@@ -26,6 +26,7 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["**/*.bak.tsx", "**/*.bak.ts", "node_modules"]
 }
 
