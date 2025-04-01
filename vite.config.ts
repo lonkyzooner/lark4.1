@@ -94,6 +94,7 @@ export default defineConfig({
   build: {
     sourcemap: true,
     rollupOptions: {
+      external: ['@sentry/react', '@sentry/tracing'],
       output: {
         manualChunks: {
           "react-vendor": ["react", "react-dom", "react-router-dom"],
