@@ -1,5 +1,5 @@
 import postcssImport from 'postcss-import';
-import tailwindcssNesting from 'tailwindcss/nesting';
+import tailwindcssNesting from 'tailwindcss/nesting/index.js';
 import postcssNesting from 'postcss-nesting';
 import tailwindcss from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
