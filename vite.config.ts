@@ -5,6 +5,15 @@ import path from "path"
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  css: {
+    postcss: {
+      plugins: {
+        tailwindcss: {
+          config: './tailwind.config.cjs',
+        },
+      },
+    },
+  },
   plugins: [
     react(),
     VitePWA({
